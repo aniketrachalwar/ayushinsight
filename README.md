@@ -1,2 +1,160 @@
-# ayushinsight
-this is the my bros first repository.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ayush Education Platform</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f3c88;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #1f3c88, #0093e9);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background-color: #fff;
+      color: #1f3c88;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .courses {
+      padding: 50px 30px;
+      text-align: center;
+    }
+
+    .courses h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .course-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .course-card {
+      background-color: white;
+      padding: 20px;
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .course-card h3 {
+      margin-bottom: 10px;
+      color: #1f3c88;
+    }
+
+    .course-card p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .course-card a {
+      color: #0093e9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #1f3c88;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Ayush Education Platform</div>
+    <nav>
+      <a href="https://nta.ac.in">NTA</a>
+      <a href="https://www.pw.live">Ayush Wallah</a>
+      <a href="https://accounts.google.co.in">Google</a>
+      <a href="https.//www.india.gov.in">India</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Ayush Educational Platform</h1>
+    <p>India's Most Loved Learning Platform for IIT JEE, NEET, Boards</p>
+    <a href="https://www.skillindiadigital.gov.in" alterf= "https://swayam.gov.in">Explore Courses</a>
+  </section>
+
+  <section class="courses">
+    <h2>Featured Courses</h2>
+    <div class="course-container">
+      <div class="course-card">
+        <h3>Physics</h3>
+        <p>Master Class 12 Physics for Boards and JEE.</p>
+        <a href="https://startlearning.in">Start Learning →</a>
+      </div>
+      <div class="course-card">
+        <h3>Maths Marathon</h3>
+        <p>Quick revision of all important topics of Math.</p>
+        <a href="https://study.com">Start Learning →</a>
+      </div>
+      <div class="course-card">
+        <h3>NEET Bio Crash</h3>
+        <p>All NEET biology concepts with short tricks and notes.</p>
+        <a href="https://www.khanacademy.org">Start Learning →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Ayush Educational Platform • Made by Ayush
+  </footer>
+</body>
+</html>
